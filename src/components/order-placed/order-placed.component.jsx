@@ -1,4 +1,3 @@
-import { createGenerateClassName } from '@material-ui/core';
 import React from 'react';
 
 import './order-placed.styles.css';
