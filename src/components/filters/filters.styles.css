@@ -1,0 +1,20 @@
+.filters {
+    padding: 8px;
+}
+
+.filters-heading {
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.filters-heading>h3 {
+    font-weight: normal;
+}
+
+.filters__filter {
+    margin: 10px 0;
+}
+
+.filters__filter>input {
+    margin-right: 8px;
+}

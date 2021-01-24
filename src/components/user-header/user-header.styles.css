@@ -1,0 +1,60 @@
+.user-header {
+    padding: 0 14vw;
+    display: flex;
+    background: rgb(240, 238, 238);
+    justify-content: space-between;
+    position: sticky;
+    /* top: 0; */
+    z-index: 100; 
+    border-bottom:  rgb(194, 192, 192) 1px solid; 
+}
+
+.user-header-logo_and_searchfield{
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.user-header__logo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+.user-header__buttons{
+    display: flex;
+    padding: 4px 0;
+}
+
+.user-header__buttons__button{
+    color: rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 12px; */
+    padding: 0 12px;
+    
+}
+
+.user-header__buttons__button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.user-header__buttons__button h5{
+    margin: 0;
+}
+
+.user-header__buttons__button-last {
+    border-right: 1px rgb(150, 150, 150) solid;
+}
+
+.user-header_search input{
+    padding: 8px 4px;
+    background: rgb(243, 251, 253);
+    border-radius: 4px;
+    width: 240px;
+    border: silver 0.1px solid;
+}
